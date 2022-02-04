@@ -1,0 +1,31 @@
+{
+  "name": "self-role-bot",
+  "version": "1.0.0",
+  "description": "Self Assignable Roles Discord Bot",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "build": "tsc",
+    "watch": "tsc-watch --onSuccess \"node ./build/index.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Averyyyyyyyy/self-role-bot.git"
+  },
+  "author": "Averyyyyyyyy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Averyyyyyyyy/self-role-bot/issues"
+  },
+  "homepage": "https://github.com/Averyyyyyyyy/self-role-bot#readme",
+  "dependencies": {
+    "dotenv": "^11.0.0",
+    "tslib": "^2.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.14",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "tsc-watch": "^4.6.0",
+    "typescript": "^4.5.5"
+  }
+}
